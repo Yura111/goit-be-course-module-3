@@ -74,6 +74,8 @@ h2 {
   font-size: 22pt;
 }
 img {
+    width: 420px;
+    height: 280px;
   margin-bottom: 27px;
 }
 .indentation {
