@@ -10,7 +10,6 @@ html {
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 body {
-color: #c7c1b6;
   width: 900px;
   margin: 0 auto;
   margin-top: 78px;
@@ -55,32 +54,28 @@ color: #c7c1b6;
   margin-right: 0;
 }
 
-
 .one-section p {
   font-size: 14px;
-  }
+}
 header {
   margin-bottom: 100px;
 }
 div {
-text-align: center;
+  text-align: center;
 }
 .big-letters {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
-  Font-weight: light;
+  font-weight: light;
   line-height: 1.2;
-  color:#b4ad9e
-
+  color: #b4ad9e;
 }
-h2{    
-    font-size: 22pt;
-
+h2 {
+  font-size: 22pt;
 }
-img{
-margin-bottom: 27px;
+img {
+  margin-bottom: 27px;
 }
-.indentation{
-    margin-bottom: 132px;
+.indentation {
+  margin-bottom: 132px;
 }
-
