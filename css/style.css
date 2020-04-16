@@ -10,14 +10,30 @@ html {
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 body {
-  width: 900px;
   margin: 0 auto;
   margin-top: 78px;
   font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+}
+.container {
+  width: 900px;
 }
 .style-hover:hover {
   color: #03a9f4;
 }
+
+.distance-two:hover {
+  color: #03a9f4;
+}
+
+.distance-there:hover {
+  color: #03a9f4;
+}
+
+.distance-four:hover {
+  color: #03a9f4;
+}
+
 .page-nav {
   margin: 0;
   padding: 0px;
@@ -71,13 +87,26 @@ div {
   color: #b4ad9e;
 }
 h2 {
-  font-size: 22pt;
+  font-size: 30px;
 }
 img {
-    width: 420px;
-    height: 280px;
+  width: 420px;
+  height: 280px;
   margin-bottom: 27px;
 }
 .indentation {
-  margin-bottom: 132px;
+  margin-bottom: 122px;
+}
+.border-button {
+  display: block;
+  border: none;
+  padding: 20px 35px;
+  margin: auto;
+  background-color: white;
+  font-size: 20px;
+  line-height: 24px;
+  outline: 1px solid rgb(98, 98, 98);
+  cursor: pointer;
+  color: rgb(98, 98, 98);
+  margin-top: 50px;
 }
