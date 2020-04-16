@@ -6,9 +6,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-
 body {
   margin: 0 auto;
   margin-top: 78px;
@@ -81,8 +78,7 @@ div {
 }
 .big-letters {
   text-transform: uppercase;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: light;
+  font-family: "Ubuntu", sans-serif;  
   line-height: 1.2;
   color: #b4ad9e;
 }
@@ -109,4 +105,8 @@ img {
   cursor: pointer;
   color: rgb(98, 98, 98);
   margin-top: 50px;
+  width: 166px;
+  height: 60px;
+  padding: 0;
+
 }
