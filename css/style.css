@@ -8,59 +8,58 @@ html {
 }
 body {
   margin: 0 auto;
-  margin-top: 78px;
-  font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
+  
 }
+.height{
+  padding-top: 78px;
+}
+
 .container {
   width: 900px;
+  margin: 0 auto;
 }
-.style-hover:hover {
+.style:hover {
   color: #03a9f4;
 }
-
-.distance-two:hover {
-  color: #03a9f4;
-}
-
-.distance-there:hover {
-  color: #03a9f4;
-}
-
-.distance-four:hover {
-  color: #03a9f4;
-}
-
 .page-nav {
   margin: 0;
   padding: 0px;
   list-style: none;
   text-align: center;
   text-transform: uppercase;
-}
+  cursor: pointer;
+  }
+  .style{
+        width: 900px;
+        text-decoration: none;
+  
+  }
+  .style-menu:nth-child(4n) {
+    margin-right: 0;
+  }
+
 .page-nav li {
   display: inline-block;
-}
-.style-hover {
+ }
+.style-menu {
   margin-right: 120px;
 }
-.distance-two {
-  margin-right: 106px;
-}
-.distance-there {
-  margin-right: 96px;
+header {
+  padding-bottom: 120px;
 }
 .one-section {
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0px;
+  margin: auto;
 }
 .one-section li {
   display: inline-block;
   width: 420px;
-  margin: 0;
-  padding: 0px;
+    padding: 0px;
   margin-right: 60px;
 }
 .one-section li:nth-child(2n) {
@@ -70,16 +69,17 @@ body {
 .one-section p {
   font-size: 14px;
 }
-header {
-  margin-bottom: 100px;
+.indentation{
+margin-bottom: 140px;
 }
+
 div {
   text-align: center;
 }
 .big-letters {
   text-transform: uppercase;
-  font-family: "Ubuntu", sans-serif;  
-  line-height: 1.2;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.71px;
   color: #b4ad9e;
 }
 h2 {
@@ -90,10 +90,23 @@ img {
   height: 280px;
   margin-bottom: 27px;
 }
-.indentation {
-  margin-bottom: 122px;
+
+.one-section{
+  margin-bottom: 0;
 }
-.border-button {
+.text-aling{
+ line-height: 24px;
+}
+.main{
+  padding-top: 15px;
+}
+.border-button{
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 56px;
+
+}
+.text-button {
   display: block;
   border: none;
   padding: 20px 35px;
@@ -108,5 +121,4 @@ img {
   width: 166px;
   height: 60px;
   padding: 0;
-
 }
