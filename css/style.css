@@ -8,11 +8,10 @@ html {
 }
 body {
   margin: 0 auto;
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
-  
 }
-.height{
+.height {
   padding-top: 78px;
 }
 
@@ -30,19 +29,18 @@ body {
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  }
-  .style{
-        width: 900px;
-        text-decoration: none;
-  
-  }
-  .style-menu:nth-child(4n) {
-    margin-right: 0;
-  }
+}
+.style {
+  width: 900px;
+  text-decoration: none;
+}
+.style-menu:nth-child(4n) {
+  margin-right: 0;
+}
 
 .page-nav li {
   display: inline-block;
- }
+}
 .style-menu {
   margin-right: 120px;
 }
@@ -59,7 +57,7 @@ header {
 .one-section li {
   display: inline-block;
   width: 420px;
-    padding: 0px;
+  padding: 0px;
   margin-right: 60px;
 }
 .one-section li:nth-child(2n) {
@@ -69,8 +67,8 @@ header {
 .one-section p {
   font-size: 14px;
 }
-.indentation{
-margin-bottom: 140px;
+.indentation {
+  margin-bottom: 140px;
 }
 
 div {
@@ -91,20 +89,19 @@ img {
   margin-bottom: 27px;
 }
 
-.one-section{
+.one-section {
   margin-bottom: 0;
 }
-.text-aling{
- line-height: 24px;
+.text-aling {
+  line-height: 24px;
 }
-.main{
+.main {
   padding-top: 15px;
 }
-.border-button{
+.border-button {
   margin: 0 auto;
   margin-bottom: 70px;
   margin-top: 56px;
-
 }
 .text-button {
   display: block;
